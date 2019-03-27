@@ -12,5 +12,5 @@
 
 public
 def fizzbuzz
-  self % 15 == 0 ? "fizzbuzz" : self % 5 == 0 ? "buzz" : self % 3 == 0 ? "fizz" : self
+  self % 5 == 0 && self % 3 == 0 ? "fizzbuzz" : self % 5 == 0 ? "buzz" : self % 3 == 0 ? "fizz" : self
 end 
